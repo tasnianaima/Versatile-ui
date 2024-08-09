@@ -16,12 +16,14 @@
 .display-block{
     display: block;
 }
+
 .nav-container,.bannar{
     max-width: 1440px;
     margin: 0 auto;
     justify-content: space-between;
     
 }
+
 .navbar{
     align-items: center;
     justify-content: space-between;
@@ -314,20 +316,17 @@ font-weight: 400;
 
 
 }
-/* .change-conteiner{
-    max-width: 1440px;
-    max-height: 452px;
-    margin: 0px auto;
-} */
+
 .card-container2{
-    max-width: 1044px;
+    max-width: 10px;
     height: 274px;
     gap: 40px;
 
 }
 
 .card-container{
-    margin-top: 100px;
+    max-width: 1060px;
+    margin:20px auto ;
     display: grid;
     grid-template-columns: repeat(4,1fr);
   
@@ -366,7 +365,9 @@ margin-bottom: 58px;
 img{
     width: 100%;
 }
+
 .img-card{
+    border: none;
     border-radius: 50%;
     width: 180px;
 height: 180px;
@@ -482,6 +483,11 @@ background-image: linear-gradient( rgba(6, 255, 210, 0.5)
     
    
 }
+.bmi-card{
+    max-width: 1060px;
+    margin: 0 190px;
+    
+}
 .bmi-calculator-container{
     background-color:rgba(34, 34, 34, 1) ;
   
@@ -566,7 +572,7 @@ padding: 12px 40px 12px 20px;
 }
 .meet-our{
     text-align: center;
-    border: 1px solid red;
+
    
 
 }
@@ -576,10 +582,14 @@ padding: 12px 40px 12px 20px;
 .meet-description{
     color: aliceblue;
 }
-.img-card{
+.meet-img-card{
+    width:327px ;
     
   margin-top: 30px;
-  border: 1px solid red;
+  border: 1px solid ;
+}
+.meet-img-card img{
+    width: 100%;
 }
 .meet-img-container{
     display: grid;

@@ -11,12 +11,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="style/responsive.css">
 <style>
+    .display-block{
+        border: none;
+    }
+    #select{
+        width: 95%;
+        border: none;
+    }
 table{
     border-collapse:collapse ;
+    
 }
     td ,th{
         border: 1px solid rgba(255, 255, 255, 0.1);
         padding: 5px;
+        
     }
 </style>
 </head>
@@ -82,7 +91,7 @@ table{
 
     </header>
     <main >
-        <section class="change-conteiner hei-wid">
+        <section class="change-conteiner ">
             <div class="change">
                 <h3 class="change-title">
                     Change Your Habits</h3>
@@ -93,7 +102,7 @@ table{
             <div class="card-container ">
              
                 <div class="card">
-                    <img src="images/image 3.png" alt="" class="img-card">
+                    <img class="img-card" src="images/image 3.png" alt="" >
                     <h3 class="card-title">Movement</h3>
                     <p class="card-description">We believe fitness should be accessible to everyone</p>
                 </div>
@@ -163,81 +172,83 @@ table{
             
          </section>
          <section class="bmi-calculator-container  ">
-           <div class="bmi-calculator display-flex max-width">
-            <div class="table-colum2">
-                <h3 class="table-title">BMI Calculator Chart</h3>
-                <table>
-                    <thead>
-                     <tr>
-                        <th class="bmi-head" >BMI</th>
-                        <th class="bmi-head">Weight Status</th>
-                     </tr>
-
-                    </thead>
-                    <tbody>
-                        <tr> 
-                            
-                            <td class="table-row
-                            ">Below 18.5</td>
-                            <td class="table-row
-                            ">Underweight</td>
-                            
-                        </tr> 
-                        
-                        <tr>
-                            
-                            <td class="table-row
-                            ">18.5 - 24.9</td>
-                            <td class="table-row
-                            ">Healthy</td>
-                        </tr> 
-                    
-
- 
-                        <tr> 
-                            
-                            <td class="table-row
-                            ">25.0 - 29.9</td>
-                            <td class="table-row
-                            ">Overweight</td>
-                        </tr> 
-
-                        
- 
- 
-                        <tr> 
-                            
-                            <td class="table-row
-                            ">30.0 - and Above</td>
-                            <td class="table-row
-                            ">Obese</td>
-                        </tr> 
-                        
-
-                    </tbody> 
-                    
-                </table>
-            </div>
-            <div class="table-colum1">
-                <h3 class="table-title">Calculate your BMI</h3>
-                <p class="table-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                <div class="form display-flex">
-                   <div class="input ">
-                    <input class="display-block" type="text" placeholder="Height/cm">
-                    <input class="display-block" type="text" placeholder="Age">
-                   </div>
-                   <div class="input">
-                    <input class="display-block"  type="text" placeholder="Weight/kg">
-                    <input class="display-block" type="text" placeholder="Sex">
-                   </div>
-                </div>
-               
+           <div class="bmi-calculator  max-width">
+            <div class="bmi-card display-flex">
+                <div class="table-colum2">
+                    <h3 class="table-title">BMI Calculator Chart</h3>
+                    <table>
+                        <thead>
+                         <tr>
+                            <th class="bmi-head" >BMI</th>
+                            <th class="bmi-head">Weight Status</th>
+                         </tr>
     
-    <select id="select" name="" size>
-      <option  value="">Select an activity factor</option>
-      
-    </select>
-    <button class="btn-primary display-flex">calculate</button>
+                        </thead>
+                        <tbody>
+                            <tr> 
+                                
+                                <td class="table-row
+                                ">Below 18.5</td>
+                                <td class="table-row
+                                ">Underweight</td>
+                                
+                            </tr> 
+                            
+                            <tr>
+                                
+                                <td class="table-row
+                                ">18.5 - 24.9</td>
+                                <td class="table-row
+                                ">Healthy</td>
+                            </tr> 
+                        
+    
+     
+                            <tr> 
+                                
+                                <td class="table-row
+                                ">25.0 - 29.9</td>
+                                <td class="table-row
+                                ">Overweight</td>
+                            </tr> 
+    
+                            
+     
+     
+                            <tr> 
+                                
+                                <td class="table-row
+                                ">30.0 - and Above</td>
+                                <td class="table-row
+                                ">Obese</td>
+                            </tr> 
+                            
+    
+                        </tbody> 
+                        
+                    </table>
+                </div>
+                <div class="table-colum1">
+                    <h3 class="table-title">Calculate your BMI</h3>
+                    <p class="table-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <div class="form display-flex">
+                       <div class="input ">
+                        <input class="display-block" type="text" placeholder="Height/cm">
+                        <input class="display-block" type="text" placeholder="Age">
+                       </div>
+                       <div class="input">
+                        <input class="display-block"  type="text" placeholder="Weight/kg">
+                        <input class="display-block" type="text" placeholder="Sex">
+                       </div>
+                    </div>
+                   
+        
+        <select id="select" name="" size>
+          <option  value="">Select an activity factor</option>
+          
+        </select>
+        <button class="btn-primary display-flex">calculate</button>
+                </div>
             </div>
             
 
@@ -251,43 +262,44 @@ table{
                 <h3 class="tra-title">Meet Our Team</h3>
                 <p class="tra-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
+             
             <div class="meet-img-container">
-                <div class="img-card">
+                <div class="meet-img-card">
                     <img  class="single" src="images/trainer1.png" alt="" >
                     <div class="name">
                         <h1 class="meet-title">Jerome Bell</h1>
                         <p class="meet-description">Trainer</p>
                     </div>
                 </div>
-                <div class="img-card">
+                <div class="meet-img-card">
                     <img  class="single" src="images/trainer2.png" alt="" >
                     <div class="name">
                         <h1 class="meet-title">Cameron Williamson</h1>
                         <p class="meet-description">Trainer</p>
                     </div>
                 </div>
-                <div class="img-card">
+                <div class="meet-img-card">
                     <img  class="single" src="images/trainer3.png" alt="" >
                     <div class="name">
                         <h1 class="meet-title">Darrell Steward</h1>
                         <p class="meet-description">Trainer</p>
                     </div>
                 </div>
-                <div class="img-card">
+                <div class="meet-img-card">
                     <img  class="single" src="images/trainer4.png" alt="" >
                     <div class="name">
                         <h1 class="meet-title">Dianne Russell</h1>
                         <p class="meet-description">Trainer</p>
                     </div>
                 </div>
-                <div class="img-card">
+                <div class="meet-img-card">
                     <img  class="single" src="images/trainer5.png" alt="" >
                     <div class="name">
                         <h1 class="meet-title">Cody Fisher</h1>
                         <p class="meet-description">Trainer</p>
                     </div>
                 </div>
-                <div class="img-card">
+                <div class="meet-img-card">
                     <img  class="single" src="images/trainer6.png" alt="" >
                     <div class="name">
                         <h1 class="meet-title">Theresa Webb</h1>
