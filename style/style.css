@@ -9,11 +9,7 @@
 }
 
 /* shard style */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .display-flex{
     display: flex;
 }
@@ -594,12 +590,15 @@ padding: 12px 40px 12px 20px;
     color:rgba(230, 83, 60, 1) ;
     font-size: 70px;
     font-weight: 800;
+    margin-bottom: 20px;
+
 }
 .foot2title{
     font-family: Inter;
 font-size: 32px;
 font-weight: 700;
 color: rgba(255, 255, 255, 1);
+margin-bottom: 40px;
 
 
 }
@@ -610,28 +609,60 @@ color: rgba(255, 255, 255, 1);
 }
 .foot-link{
     list-style: none;
+    margin: 20px;
 }
 .foot-ankor{
     text-decoration: none;
     font-size: 23px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    
 }
 .column{
-    max-width: 1200px;
+    max-width: px;
     margin: 0px auto;
-    border: 1px solid red;
+    
     
 }
 .foot{
-    
+    max-width: 1060px;
     display: flex;
-    align-items: center;
-    justify-content: ;
-background-color:rgba(255, 255, 255, 0.1) ;
+    margin: 0 auto;
+    gap:1.5fr;
+    padding: 50px;
+
+   
+
+}
+.foot-main{
+    
+    padding: 70px 190px;
+    margin-top: 100px;
+    background-color:rgba(255, 255, 255, 0.1) ;
 }
 .footer{
-    margin-top: 100px;
+
+   
+}
+.hr{
+    max-width: 1060px;
+    margin: 10px auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+
+}
+.all{
+ 
+    text-align: center;
+    
+    margin: 0px auto;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.last-part{
+    margin-top: 10px;
 }
 
 
