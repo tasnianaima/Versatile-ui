@@ -1,0 +1,69 @@
+/* media small device */
+@media screen and (max-width:576px){
+    .nav-container,.bannar,.run-container ,.run-container,.bmi-calculator{
+        flex-direction: column;
+    }
+    .navbar{
+        
+        flex-direction: row;
+        
+
+    }
+    .ul-container{
+        display: none;
+    }
+    .hamburg{
+        display: block;
+        color:gray;
+    }
+    
+    
+    .banner-ima{
+        width: 100%;
+    }
+    .bmi-calculator{
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 1500px;
+    }
+    
+
+.table-colum1{
+    max-width: 300px;
+    max-height:200px;
+    margin:50px  ;
+   
+}
+   .nav-list{
+    margin-top: 40px;
+   }
+   .home-deco{
+    margin-right: 30px;
+   }
+   .card-container,.training-ima-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 200px;
+    justify-self: center;
+   
+   }
+   .change-conteiner{
+    max-width: 338px;
+   }
+   .card-container{
+ 
+    margin: 200px auto;
+
+   }
+   
+   .run-container{
+    margin-top: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   }
+   .run-ima{
+margin: 20px auto;
+   }
+    
+}
