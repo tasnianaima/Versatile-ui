@@ -216,7 +216,7 @@ font-size: 16px;
    
     top:10%;
     left:80%; 
-    border: 1px solid red;
+    
  }
  #circle{
     color:rgba(230, 83, 60, 1);
@@ -474,43 +474,55 @@ background-image: linear-gradient( rgba(6, 255, 210, 0.5)
     margin: 88px auto;
 }
 /* bmi clculation */
+.bmi-calculator-container {
+    
+}
 .bmi-calculator{
-    justify-content: space-between;
-    margin:51px 189px ;
-    gap: 175px;
-    max-width: 1440px;
-    max-height: 800px;
+  
+    max-width: 1060px;
+    margin: 0 auto;
+    
     
    
 }
-.bmi-card{
+/* .bmi-card{
     max-width: 1060px;
-    margin: 0 190px;
+    margin: 0 auto;
+    border: 1px solid green;
     
-}
+} */
 .bmi-calculator-container{
     background-color:rgba(34, 34, 34, 1) ;
   
 }
 .table-colum1{
-  max-width: 577px;
-max-height: 386px;
-margin:50px  ;
-margin-left: 190px;
+  width: 577px;
+height: 386px;
+margin-top:17px  ;
+padding-bottom:59px ;
+margin-left: 180px;
+
+
 
 
 }
 .table-colum2{
-    max-width: 310px;
-    max-height: 268px;
-    margin-top: 25px;
-    margin-left: 190px;
+    width: 364px;
+    height: 268px;
+    padding-top: 20px;
+    
+   
+
 
 }
 .table-title{
     font-family: Inter;
 font-size: 28px;
 font-weight: 900;
+
+
+
+/* margin-top:52px ; */
 
 color: rgba(255, 255, 255, 1);
 
@@ -554,7 +566,7 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 
 #select{
-    max-width: 577px;
+    max-width:88%;
     max-height: 48px;
 
     color: rgba(255, 255, 255, 0.6);
@@ -566,35 +578,80 @@ border-color: none;
 padding: 12px 40px 12px 20px;
 }
 /* meet section */
-.main-container{
-    max-width:1060px ;
-    margin: 0 auto;
-}
-.meet-our{
-    text-align: center;
 
-   
+.meet-our{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+color: rgba(255, 255, 255, 1);
+
+}
+.meet-description{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
 
 }
 .meet-title{
-    color: white;
+    max-width: 671px;
+    text-align: center;
+    margin: 70px auto;
 }
-.meet-description{
-    color: aliceblue;
-}
-.meet-img-card{
-    width:327px ;
+.meet-container{
+    max-width: 1060px;
     
-  margin-top: 30px;
-  border: 1px solid ;
+    margin: 10px auto;
+   
+    background-color:rgba(255, 255, 255, 0.1) ;
 }
-.meet-img-card img{
-    width: 100%;
-}
-.meet-img-container{
+.meet-main{
     display: grid;
+    gap: 20px;
+    margin-left: 10px;
     grid-template-columns: repeat(3,1fr);
+
 }
+.meet-img{
+    width: 326.67px;
+height: 272px;
+/* width: 50%; */
+margin-top: 20px;
+position: relative;
+
+}
+.meet-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.name{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    
+}
+
+.trainer{
+    width: 100%;
+    border-radius: 18px;
+    
+    
+}
+.t-name{
+
+font-size: 20px;
+font-weight: 900;
+
+color: rgba(255, 255, 255, 1);
+
+}
+.t-ocu{
+font-size: 14px;
+font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* footer */
 .foot-title{
     color:rgba(230, 83, 60, 1) ;

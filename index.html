@@ -49,7 +49,7 @@ table{
             </div>
         </nav>
             <div class="bannar display-flex">
-                <div>
+                <div class="">
                 <h3 class="brand">Get body in <span class="shape"> shape </span>& stay <br> healthy</h3>
                 <p class="brand-description descriotion-color">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
             
@@ -62,14 +62,16 @@ table{
                  <img src="images/Images 2.png" alt="">
                
                 <div class="hoina1">
-                  <div class="div1 display-flex">
-                    <div>
-                        <i id="circle" class="fa-solid fa-circle"></i>
-                    </div>
-                    <div>
-                        <h1 class="title-350">350+</h1>
-                    <p class="three-description">Video tutorial</p>
-                    </div>
+                  <div class="hoise">
+                    <div class="div1 display-flex">
+                        <div>
+                            <i id="circle" class="fa-solid fa-circle"></i>
+                        </div>
+                        <div>
+                            <h1 class="title-350">350+</h1>
+                        <p class="three-description">Video tutorial</p>
+                        </div>
+                      </div>
                   </div>
                   <!-- <div class="hoina2">
                     <div class="div2"> -->
@@ -144,25 +146,7 @@ table{
         
 
         </section>
-            
-         <section class="training">
-            <div class="training-container">
-                <h3 class="tra-title">Trainings and Exercises
-                </h3>
-                <p class="tra-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
-                </p>
-
-            </div>
-            <div class="training-ima-container">
-                <img class="tra-ima1"  src="images/exercise1.jpg" alt="">
-                <img class="tra-ima2" src="images/exercise2.png" alt="">
-                <img class="tra-ima3" src="images/exercise3.png" alt="">
-                <img class="tra-ima4" src="images/exercise4.png" alt="">
-                <img class="tra-ima5" src="images/exercise5.jpg" alt="">
-                <img class="tra-ima6" src="images/exercise6.jpg" alt="">
-
-            </div>
-         </section>
+        
          <section class="bmi">
                 
                  <div class="bmi-container">
@@ -172,11 +156,13 @@ table{
             
          </section>
          <section class="bmi-calculator-container  ">
-           <div class="bmi-calculator  max-width">
+            
+           <div class="bmi-calculator  ">
             <div class="bmi-card display-flex">
                 <div class="table-colum2">
                     <h3 class="table-title">BMI Calculator Chart</h3>
-                    <table>
+                    <div>
+                    <table style="width: 310px ; height: 216px;">
                         <thead>
                          <tr>
                             <th class="bmi-head" >BMI</th>
@@ -201,9 +187,6 @@ table{
                                 <td class="table-row
                                 ">Healthy</td>
                             </tr> 
-                        
-    
-     
                             <tr> 
                                 
                                 <td class="table-row
@@ -211,9 +194,6 @@ table{
                                 <td class="table-row
                                 ">Overweight</td>
                             </tr> 
-    
-                            
-     
      
                             <tr> 
                                 
@@ -222,94 +202,96 @@ table{
                                 <td class="table-row
                                 ">Obese</td>
                             </tr> 
-                            
-    
                         </tbody> 
                         
                     </table>
                 </div>
+                </div>
                 <div class="table-colum1">
                     <h3 class="table-title">Calculate your BMI</h3>
                     <p class="table-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                    <div class="form display-flex">
-                       <div class="input ">
-                        <input class="display-block" type="text" placeholder="Height/cm">
-                        <input class="display-block" type="text" placeholder="Age">
-                       </div>
-                       <div class="input">
-                        <input class="display-block"  type="text" placeholder="Weight/kg">
-                        <input class="display-block" type="text" placeholder="Sex">
-                       </div>
+                    <div class="main-form">
+                        <div class="form display-flex">
+                            <div class="input ">
+                             <input class="display-block" type="text" placeholder="Height/cm">
+                             <input class="display-block" type="text" placeholder="Weight/kg">
+                            </div>
+                            <div class="input">
+                             <input class="display-block"  type="text" placeholder="Age">
+                             <input class="display-block" type="text" placeholder="Sex">
+                            </div>
+                         </div>
+                         <select id="select" name="" size>
+                            <option  value="">Select an activity factor</option>
+                            
+                          </select>
+                          <button class="btn-primary display-flex">calculate</button>
+                          
                     </div>
-                   
+      
+                </div>
+            </div>
+
+
+           </div>
+
+         </section>
+         <section>
+            <div class="meet-title">
+                <h3 class="meet-our">Meet Our Team</h3>
+                <p class="meet-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="meet-container">
+                <div class="meet-main">
+                    <div class="meet-img">
+                        <img class="trainer" src="images/trainer1.png" alt="">
+                        <div class="name">
+                            <h3 class="t-name">Jerome Bell</h3>
+                            <p class="t-ocu">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="meet-img">
+                        <img class="trainer" src="images/trainer2.png" alt="">
+                        <div class="name">
+                            <h3 class="t-name">Cameron Williamson</h3>
+                            <p class="t-ocu">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="meet-img">
+                        <img class="trainer" src="images/trainer3.png" alt="">
+                        <div class="name">
+                            <h3 class="t-name">Darrell Steward</h3>
+                            <p class="t-ocu">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="meet-img">
+                        <img class="trainer" src="images/trainer4.png" alt="">
+                        <div class="name">
+                            <h3 class="t-name">Dianne Russell</h3>
+                            <p class="t-ocu">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="meet-img">
+                        <img class="trainer" src="images/trainer5.png" alt="">
+                        <div class="name">
+                            <h3 class="t-name">Cody Fisher</h3>
+                            <p class="t-ocu">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="meet-img">
+                        <img class="trainer" src="images/trainer6.png" alt="">
+                        <div class="name">
+                            <h3 class="t-name">Jerome Bell</h3>
+                            <p class="t-ocu">Trainer</p>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+
+         </section>
         
-        <select id="select" name="" size>
-          <option  value="">Select an activity factor</option>
-          
-        </select>
-        <button class="btn-primary display-flex">calculate</button>
-                </div>
-            </div>
-            
-
-
-           </div>
-
-         </section>
-         <section class="meet">
-           <div class="main-container">
-            <div class="meet-our">
-                <h3 class="tra-title">Meet Our Team</h3>
-                <p class="tra-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-            </div>
-             
-            <div class="meet-img-container">
-                <div class="meet-img-card">
-                    <img  class="single" src="images/trainer1.png" alt="" >
-                    <div class="name">
-                        <h1 class="meet-title">Jerome Bell</h1>
-                        <p class="meet-description">Trainer</p>
-                    </div>
-                </div>
-                <div class="meet-img-card">
-                    <img  class="single" src="images/trainer2.png" alt="" >
-                    <div class="name">
-                        <h1 class="meet-title">Cameron Williamson</h1>
-                        <p class="meet-description">Trainer</p>
-                    </div>
-                </div>
-                <div class="meet-img-card">
-                    <img  class="single" src="images/trainer3.png" alt="" >
-                    <div class="name">
-                        <h1 class="meet-title">Darrell Steward</h1>
-                        <p class="meet-description">Trainer</p>
-                    </div>
-                </div>
-                <div class="meet-img-card">
-                    <img  class="single" src="images/trainer4.png" alt="" >
-                    <div class="name">
-                        <h1 class="meet-title">Dianne Russell</h1>
-                        <p class="meet-description">Trainer</p>
-                    </div>
-                </div>
-                <div class="meet-img-card">
-                    <img  class="single" src="images/trainer5.png" alt="" >
-                    <div class="name">
-                        <h1 class="meet-title">Cody Fisher</h1>
-                        <p class="meet-description">Trainer</p>
-                    </div>
-                </div>
-                <div class="meet-img-card">
-                    <img  class="single" src="images/trainer6.png" alt="" >
-                    <div class="name">
-                        <h1 class="meet-title">Theresa Webb</h1>
-                        <p class="meet-description">Trainer</p>
-                    </div>
-                </div>
-            </div>
-           </div>
-
-         </section>
 
     </main>
     <footer class="footer">
