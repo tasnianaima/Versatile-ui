@@ -34,6 +34,26 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     
 }
+.circle2{
+    display: none;
+}
+.gym
+{
+     color: white;
+     font-size: 30px;
+     font-weight: 900;
+  
+     text-align: center;
+}
+
+
+.vdo{
+    max-width: 1200px;
+    margin: 0 auto;
+  /* text-align: center;
+  margin-left: 260px; */
+
+}
 .navbar{
     
     align-items: center;

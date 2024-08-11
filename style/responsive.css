@@ -7,6 +7,23 @@
         width: 100%;
         margin: 0px auto;
     }
+    .circle1{
+        display: none;
+    }
+    #play-circle{
+        
+        font-size: 30px;
+        background-color:white ;
+        color:rgba(230, 83, 60, 1);
+        border-radius: 80%;
+        border: none;
+ 
+    }
+   
+    .circle2{
+        display: block;
+      
+    }
     
     .card{
         margin: 0 auto;
@@ -27,6 +44,9 @@
         display:block;
         width: 24px;
         
+    }
+    iframe{
+        width: 400px;
     }
     
     .ti350{
