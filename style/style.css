@@ -9,7 +9,10 @@
 }
 
 /* shard style */
-
+/* .hamburg{
+    color: pink;
+    display: none;
+} */
 .display-flex{
     display: flex;
 }
@@ -22,11 +25,20 @@
     margin: 0 auto;
     justify-content: space-between;
     
-}
 
+}
+    .ul-container{
+    margin-left: 60%;
+    padding: 4px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+}
 .navbar{
+    
     align-items: center;
     justify-content: space-between;
+   
 }
 .descriotion-color{
     color: rgba(255, 255, 255, 0.5);
@@ -373,6 +385,7 @@ img{
 height: 180px;
 
 
+
 }
 .run{
     border-radius:18px ;
@@ -597,12 +610,13 @@ color: rgba(255, 255, 255, 0.5);
     max-width: 671px;
     text-align: center;
     margin: 70px auto;
+    
 }
 .meet-container{
     max-width: 1060px;
-    
+    border-radius: 18px;
     margin: 10px auto;
-   
+   padding: 20px;
     background-color:rgba(255, 255, 255, 0.1) ;
 }
 .meet-main{
@@ -661,11 +675,13 @@ font-weight: 400;
 
 }
 .foot2title{
-    font-family: Inter;
+   
 font-size: 32px;
 font-weight: 700;
 color: rgba(255, 255, 255, 1);
-margin-bottom: 40px;
+margin-bottom: 20px;
+
+padding-left: 32px;
 
 
 }
@@ -676,7 +692,9 @@ margin-bottom: 40px;
 }
 .foot-link{
     list-style: none;
-    margin: 20px;
+    
+    margin-top: 10px;
+
 }
 .foot-ankor{
     text-decoration: none;
@@ -686,7 +704,7 @@ margin-bottom: 40px;
     
 }
 .column{
-    max-width: px;
+    
     margin: 0px auto;
     
     
@@ -701,16 +719,19 @@ margin-bottom: 40px;
    
 
 }
+/* .foot-main2{
+    border: 1px solid green;
+    max-width: 1060px;
+    margin: 0px auto;
+   
+} */
 .foot-main{
     
     padding: 70px 190px;
     margin-top: 100px;
     background-color:rgba(255, 255, 255, 0.1) ;
 }
-.footer{
 
-   
-}
 .hr{
     max-width: 1060px;
     margin: 10px auto;
@@ -731,6 +752,17 @@ font-weight: 400;
 .last-part{
     margin-top: 10px;
 }
+.column1{
+max-width: 1200px;
+
+display: grid;
+grid-template-columns: repeat(3,1.8fr);
+
+justify-content: space-around;
+
+
+}
+
 
 
 

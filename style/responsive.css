@@ -10,6 +10,7 @@
     
     .card{
         margin: 0 auto;
+        padding: 20px 55px;
     }
     .change-conteiner {
         margin: 0 auto;
@@ -18,19 +19,16 @@
       margin-bottom:28px ;
     }
     
-    .navbar{
-        
-        flex-direction: row;
-        
-
-    }
     .ul-container{
         display: none;
     }
     .hamburg{
-        display: block;
-        color:gray;
+        color: rgba(255, 255, 255, 1);
+        display:block;
+        width: 24px;
+        
     }
+    
     .ti350{
         left: 110%;
     }
@@ -60,10 +58,16 @@
   }
 
 .table-colum1{
-    max-width: 300px;
-    max-height:200px;
-    margin:50px  ;
+    width: 300px;
+
+margin-left: -0px;
+margin-top: 42px;
+ 
    
+}
+
+input{
+    max-width: 170px;
 }
    .nav-list{
     margin-top: 40px;
@@ -112,7 +116,31 @@ margin: 20px auto;
    
 }
 .foot-main{
+
     margin-top: px;
 }
+.column1{
+ margin-left: -230px;
+ 
+
+    grid-template-columns: repeat(1,1fr);
+
+    }
+    .column{
+    
+      margin-left:-25px ;
+
+    }
+    .hr{
+        margin: 0 auto;
+        margin-left: -160px;
+        width:420%;
+    }
+    .all{
+        margin-left: -160px;
+        width:450%;
+        
+      
+    }
     
 }
