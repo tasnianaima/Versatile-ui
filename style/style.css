@@ -178,10 +178,10 @@ color:  rgba(255, 255, 255, 0.5);
     
 }
 .brand{
-    font-family: Miama;
+    
     font-size: 78px;
     
-    font-weight: 400;
+    font-weight: 900;
     line-height: 93.6px;
     text-align: left;
     color:white ;
@@ -192,11 +192,15 @@ opacity: 0px;
 
 
 }
-.shape{
 
-font-style: italic;
-
+    .grey-qo-regular {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150px;
+  font-style: italic;
 }
+
 .brand-description{
     width: 520px;
 height: 48px;

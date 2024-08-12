@@ -3,6 +3,22 @@
     .nav-container,.bannar,.run-container ,.run-container,.bmi-calculator,.foot,.bmi-card{
         flex-direction: column;
     }
+    .bannar{
+        width: 100%;
+    }
+    .brand{
+        font-size:60px ;
+
+    }
+   
+    .grey-qo-regular {
+       
+        font-size: 120px;
+        font-style: italic;
+      }
+    .brand-description{
+        width: 100%;
+    }
     .head{
         width: 100%;
         margin: 0px auto;
@@ -10,6 +26,7 @@
     .circle1{
         display: none;
     }
+    
     #play-circle{
         
         font-size: 30px;
@@ -64,7 +81,7 @@
         width: 100%;
     }
     .bmi-calculator{
-        width: 85%;
+        width: 100%;
         height: 100%;
         
     }
