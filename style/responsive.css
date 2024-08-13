@@ -2,12 +2,18 @@
 @media screen and (max-width:576px){
     .nav-container,.bannar,.run-container ,.run-container,.bmi-calculator,.foot,.bmi-card{
         flex-direction: column;
+     
     }
-    .bannar{
-        width: 100%;
-    }
+   
+   
+
     .brand{
-        font-size:60px ;
+        font-size:3.75rem ;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+    
+    font-weight: 900;
+  
 
     }
    
@@ -17,7 +23,12 @@
         font-style: italic;
       }
     .brand-description{
-        width: 100%;
+        
+        width: 417px;
+    }
+    .btn{
+        gap: 14px;
+        
     }
     .head{
         width: 100%;
@@ -170,8 +181,8 @@ margin: 20px auto;
     }
     .hr{
         margin: 0 auto;
-        margin-left: -160px;
-        width:420%;
+        margin-left: -700px;
+        width:-100%;
     }
     .all{
         margin-left: -160px;

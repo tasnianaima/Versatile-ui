@@ -9,17 +9,22 @@
 }
 
 /* shard style */
-/* .hamburg{
-    color: pink;
-    display: none;
-} */
+
 .display-flex{
     display: flex;
 }
 .display-block{
     display: block;
 }
+.btn{
+    gap: 14px;
+}
 
+.brand-container{
+   
+    
+    margin-bottom: 40px;
+}
 .nav-container,.bannar{
     max-width: 1440px;
     margin: 0 auto;
@@ -40,7 +45,7 @@
 .gym
 {
      color: white;
-     font-size: 30px;
+     font-size:1.875rem;
      font-weight: 900;
   
      text-align: center;
@@ -83,7 +88,7 @@
 }
 .tra-title{
     font-family: Inter;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 color:  rgba(255, 255, 255, 1);
 
@@ -91,7 +96,7 @@ color:  rgba(255, 255, 255, 1);
 }
 .tra-description{
     font-family: Inter;
-font-size: 14px;
+font-size: 0.875rem;
 font-weight: 400;
 color:  rgba(255, 255, 255, 0.5);
 
@@ -108,7 +113,7 @@ color:  rgba(255, 255, 255, 0.5);
     border-radius:42px ;
     color: white;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     
 }
 .btn3{
@@ -124,20 +129,20 @@ color:  rgba(255, 255, 255, 0.5);
     
 }
 .title-350{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     color: rgba(250, 250, 249, 1);
 }
 .three-description{
   
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(239, 237, 232, 0.65);
     
     
 }
 .btn-500{
-    font-size: 40px;
+    font-size:2.5rem;
     font-weight: 900;
 }
 
@@ -149,7 +154,7 @@ color:  rgba(255, 255, 255, 0.5);
 .fitness{
     color:rgba(230, 83, 60, 1) ;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: italic;
 }
 .nav-list{
@@ -179,18 +184,12 @@ color:  rgba(255, 255, 255, 0.5);
 }
 .brand{
     
-    font-size: 78px;
+    font-size: 4.8rem;
     
     font-weight: 900;
-    line-height: 93.6px;
-    text-align: left;
+   
     color:white ;
-    width: 520px;
-height: 282px;
-gap: 0px;
-opacity: 0px;
-
-
+ 
 }
 
     .grey-qo-regular {
@@ -205,7 +204,7 @@ opacity: 0px;
     width: 520px;
 height: 48px;
 font-weight: 400;
-font-size: 16px;
+font-size: 1rem;
 
 
 }
@@ -260,6 +259,7 @@ font-size: 16px;
     
  }
  .banner-ima{
+
     position: relative;
     
  }
@@ -287,7 +287,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 
  }
  .fifth-description{
-    font-size: 13px;
+    font-size: .5rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
     
@@ -295,15 +295,14 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 
 
  }
- /* .{
-    position: absolute;
-    top: 45%;
- } */
 
 .video{
-    font-size: 16px;
+    font-size: 1rem;
     
-} 
+}
+.btn {
+
+}
 .btn3{
     margin-top: -100px;
     margin-left: -256pxpx;
@@ -336,17 +335,16 @@ margin-bottom: 58px;
     background-color: black;
 }
 .change-title{
-    /* width: 476px;
-    height: 58px; */
+  
     color: white;
     font-family: Inter;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 
 }
 .change-description{
     font-family: Inter;
-font-size: 14px;
+font-size: 0.875rem;
 font-weight: 400;
  color: rgba(255, 255, 255, 0.5);
 
@@ -380,7 +378,7 @@ margin-top: 58px;
 }
 .card-title{
     font-family: Inter;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 
 text-align:center;
@@ -391,7 +389,7 @@ color: white;
 }
 .card-description{
     font-family: Inter;
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 color: rgba(255, 255, 255, 0.5);
 margin-top:14px ;
@@ -421,19 +419,12 @@ height: 180px;
     background-color:  rgba(34, 34, 34, 1);
     
 }
-/* .main2{
-   max-width:1060px;
-max-height: 371px;
-border-radius: 18px;
-background-color:  rgba(34, 34, 34, 1);
 
-
-} */
 .run-container {
     border-radius: 18px;
    align-items: center;
    margin: 35px 32px 40px 54px;
-    /* gap: 62px; */
+
 }
 .run-card{
     max-width: 443px;
@@ -446,7 +437,7 @@ background-color:  rgba(34, 34, 34, 1);
 
 .run-title{
     font-family: Inter;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 color:  rgba(255, 255, 255, 1);
 
@@ -454,7 +445,7 @@ color:  rgba(255, 255, 255, 1);
 }
 .run-description{
     font-family: Inter;
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 color:  rgba(255, 255, 255, 0.5);
 
@@ -492,14 +483,7 @@ background-image: linear-gradient( rgba(6, 255, 210, 0.5)
 
 
 }
-/* .tra-ima2
-.tra-ima3
-.tra-ima4
-.tra-ima5
-.tra-ima6 */
-.bmi-con{
 
-}
 .bmi-title{
     max-width: 671px;
     max-height: 120px;
@@ -522,12 +506,7 @@ background-image: linear-gradient( rgba(6, 255, 210, 0.5)
     
    
 }
-/* .bmi-card{
-    max-width: 1060px;
-    margin: 0 auto;
-    border: 1px solid green;
-    
-} */
+
 .bmi-calculator-container{
     background-color:rgba(34, 34, 34, 1) ;
   
@@ -554,7 +533,7 @@ margin-left: 180px;
 }
 .table-title{
     font-family: Inter;
-font-size: 28px;
+font-size: 1.75rem;
 font-weight: 900;
 
 
@@ -566,7 +545,7 @@ color: rgba(255, 255, 255, 1);
 }
 .bmi-head{
     font-family: Inter;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 500;
 
 color: rgba(255, 255, 255, 1);
@@ -590,7 +569,7 @@ color: rgba(255, 255, 255, 0.5);
 }
 .display-block{
 max-width: 282px;
-max-height: 48px;
+max-height: 3rem;
 margin: 12px 12px 12px 0px;
 border-color: none;
 
@@ -618,7 +597,7 @@ padding: 12px 40px 12px 20px;
 
 .meet-our{
     font-family: Inter;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 color: rgba(255, 255, 255, 1);
 
@@ -678,14 +657,14 @@ position: relative;
 }
 .t-name{
 
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 900;
 
 color: rgba(255, 255, 255, 1);
 
 }
 .t-ocu{
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -693,14 +672,14 @@ font-weight: 400;
 /* footer */
 .foot-title{
     color:rgba(230, 83, 60, 1) ;
-    font-size: 70px;
+    font-size: 4.376rem;
     font-weight: 800;
     margin-bottom: 20px;
 
 }
 .foot2title{
    
-font-size: 32px;
+font-size: 2rem;
 font-weight: 700;
 color: rgba(255, 255, 255, 1);
 margin-bottom: 20px;
@@ -769,7 +748,7 @@ padding-left: 32px;
     
     margin: 0px auto;
     font-family: Inter;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
