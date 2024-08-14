@@ -4,8 +4,24 @@
         flex-direction: column;
      
     }
-   
-   
+  
+    #select{
+        width: 97%;
+        
+    
+       
+    }
+    
+ 
+   .input-card{
+    width: 65%;
+   }
+   .main-form{
+  
+    width: 25rem;
+
+   }
+  
 
     .brand{
         font-size:3.75rem ;
@@ -78,7 +94,7 @@
     }
     
     .ti350{
-        left: 110%;
+        left: 105%;
     }
     .hoise{
         top: -500px;
